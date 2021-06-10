@@ -1,11 +1,15 @@
 public class Stack<E> {
-    LinkedList<Integer> myLinkedList = new LinkedList<>();
+        LinkedList<Integer> LinkedList = new LinkedList<>();
 
     public void push(INode newNode) {
-        myLinkedList.add(newNode);
+        LinkedList.add(newNode);
     }
 
     public INode peek() {
-        return myLinkedList.head;
+        return LinkedList.head;
+    }
+
+    public INode pop() {
+        return LinkedList.pop();
     }
 }

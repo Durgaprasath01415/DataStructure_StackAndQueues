@@ -1,8 +1,8 @@
 INode.java
  INode
-LinkedList.java
- LinkedList
 MyNode.java
  MyNode
+LinkedList.java
+ LinkedList
 Stack.java
  Stack

@@ -2,10 +2,6 @@ public class MyNode<E> implements INode<E> {
     private E data;
     private INode next;
 
-    MyNode() {
-    }
-
-    // Constructor with node fields
     public MyNode(E data) {
         this.setData(data);
         this.setNext(null);
@@ -25,9 +21,5 @@ public class MyNode<E> implements INode<E> {
 
     public void setNext(INode next) {
         this.next = next;
-    }
-
-    public void printWelcomeMessage() {
-        System.out.println("Welcome to the Data Structure Problem");
     }
 }
