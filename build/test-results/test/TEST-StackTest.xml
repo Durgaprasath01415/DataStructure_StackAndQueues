@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-10T10:03:56" hostname="DESKTOP-BS45UV7" time="0.017">
+<testsuite name="StackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-10T10:14:14" hostname="DESKTOP-BS45UV7" time="0.006">
   <properties/>
-  <testcase name="ifStackIsCreated_shouldReturnTrue" classname="StackTest" time="0.017"/>
+  <testcase name="ifStackIsCreated_shouldReturnTrue" classname="StackTest" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
