@@ -20,7 +20,7 @@ public class LinkedList<T> {
         }
     }
 
-    public void addLast(INode<T> newNode) {
+    public void append(INode<T> newNode) {
         if (this.head == null) {
             this.head = newNode;
         }
