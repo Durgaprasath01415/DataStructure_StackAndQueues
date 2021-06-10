@@ -8,4 +8,8 @@ public class Queues<T> {
     public INode peek() {
         return LinkedList.head;
     }
+
+    public INode<Integer> dequeue() {
+        return LinkedList.pop();
+    }
 }
